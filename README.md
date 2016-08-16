@@ -22,17 +22,17 @@ adapter = XGAdapter.with(recyclerView.adapter())
 adapter.setDataSource(dataSource = new SimpleDataSource<>(adapter));
 dataSource.setData(list); //list is where data from
 ```
-Full code is [here](./blob/master/sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Simple_Helper_Activity.java).
+Full code is [here](./sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Simple_Helper_Activity.java).
 
 ##SampleList
 
-1. Simple Base List: The basic usage using basic classes. [click](./blob/master/sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Simple_Base_Activity.java)
-2. Simple Helper List: The basic usage using XGAdapterHelper to build and bind item to datasource. [click](./blob/master/sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Simple_Helper_Activity.java)
-3. Multiple Type List: The sample for two or multiple types list. [click](./blob/master/sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_MultipleType_Activity.java)
-4. Selectable List: The sample for a list with listener callback and other handler.Include a best practices for ItemAnimator. [click](./blob/master/sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Selectable_Activity.java)
-5. Collapsible HeaderFooter List: The sample for list using CollapsibleDataSource to be collapsible with header and footer. [click](./blob/master/sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Collapsible_Activity.java)
-6. Loadable HeaderFooter Filter List: The sample for list using LoadableDataSource to be loadable with header ,footer and filter to filter data. [click](./blob/master/sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Loadable_Activity.java)
-7. Section HeaderFooter Filter List: The sample for list using SectionDataSource with section titles, header ,footer and filter to filter data. [click](./blob/master/sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Section_Activity.java)
-8. Menu List: The sample for list using MenuDataSource witch extending from SectionDataSource with click handler. [click](./blob/master/sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Menu_Activity.java)
-9. Refresh List: The sample just using XGRefresheRecyclerView. [click](./blob/master/sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Refresh_Activity.java)
-10. TouchHelper List: The sample for list using TouchHelperDataSource to adapt to ItemTouchHelper. [click](./blob/master/sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_TouchHelper_Activity.java)
+1. Simple Base List: The basic usage using basic classes. [click](./sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Simple_Base_Activity.java)
+2. Simple Helper List: The basic usage using XGAdapterHelper to build and bind item to datasource. [click](./sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Simple_Helper_Activity.java)
+3. Multiple Type List: The sample for two or multiple types list. [click](./sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_MultipleType_Activity.java)
+4. Selectable List: The sample for a list with listener callback and other handler.Include a best practices for ItemAnimator. [click](./sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Selectable_Activity.java)
+5. Collapsible HeaderFooter List: The sample for list using CollapsibleDataSource to be collapsible with header and footer. [click](./sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Collapsible_Activity.java)
+6. Loadable HeaderFooter Filter List: The sample for list using LoadableDataSource to be loadable with header ,footer and filter to filter data. [click](./sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Loadable_Activity.java)
+7. Section HeaderFooter Filter List: The sample for list using SectionDataSource with section titles, header ,footer and filter to filter data. [click](./sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Section_Activity.java)
+8. Menu List: The sample for list using MenuDataSource witch extending from SectionDataSource with click handler. [click](./sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Menu_Activity.java)
+9. Refresh List: The sample just using XGRefresheRecyclerView. [click](./sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_Refresh_Activity.java)
+10. TouchHelper List: The sample for list using TouchHelperDataSource to adapt to ItemTouchHelper. [click](./sample/src/main/java/com/xgfe/android/components/xgrecyclerviewsample/ListSample_TouchHelper_Activity.java)
