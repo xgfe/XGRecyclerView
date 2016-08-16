@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.xgfe.android.components.xgrecyclerviewsample">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListSample_Simple_Base_Activity"/>
+        <activity android:name=".ListSample_Simple_Helper_Activity"/>
+        <activity android:name=".ListSample_MultipleType_Activity"/>
+        <activity android:name=".ListSample_Selectable_Activity"/>
+        <activity android:name=".ListSample_Collapsible_Activity"/>
+        <activity android:name=".ListSample_Loadable_Activity"/>
+        <activity android:name=".ListSample_Section_Activity"/>
+        <activity android:name=".ListSample_Menu_Activity"/>
+        <activity android:name=".ListSample_Refresh_Activity"/>
+        <activity android:name=".ListSample_TouchHelper_Activity"/>
+    </application>
+
+</manifest>
